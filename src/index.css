@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-[#100b2a];
+  @apply text-white;
+  @apply font-sans;
+  @apply min-h-screen;
+  @apply flex flex-col justify-center items-center;
+}
