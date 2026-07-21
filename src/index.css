@@ -5,9 +5,13 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#100b2a];
+  @apply bg-[#0d0824];
   @apply text-white;
   @apply font-sans;
   @apply min-h-screen;
   @apply flex flex-col justify-center items-center;
+}
+
+html{
+  scroll-behavior: smooth;
 }
